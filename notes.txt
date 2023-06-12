@@ -27,3 +27,12 @@ p, h1, span{
 
 Inline > internal/External
 Internal/External : Only matters where the code appears in the code, unless you use the !important tag.
+
+Selectors in CSS    
+    - Finds the element whose property is to be set. Types;
+        a. element selector
+        b. id selector
+        c. class selector
+        d. grouping selector
+    
+    - id, defined by # 

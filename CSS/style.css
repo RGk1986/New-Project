@@ -1,19 +1,21 @@
-p{
-    color: white;
-    background-color: blue;
-    font-family: verdana; ;
+p,h1,span{
+    color: blueviolet;
+    background-color: blanchedalmond;
 }
 
-h1{
-    color: greenyellow;
-    background-color: blueviolet;
-    font-family: cursive;
+#test{
+    color: blue;
+    background-color: red;
 }
 
-span{
-    color: purple;
-    background-color: yellow;
-    font-family: fantasy;
+.bordergreen{
+    color: green;
+    
+}
+
+.borderblack{
+    
+    background-color: black;
 }
 
 
