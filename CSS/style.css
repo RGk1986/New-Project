@@ -1,3 +1,7 @@
+/* id = #
+    class = .
+ */
+
 p,h1,span{
     color: blueviolet;
     background-color: blanchedalmond;
@@ -8,14 +12,22 @@ p,h1,span{
     background-color: red;
 }
 
-.bordergreen{
+.txtgreen{
     color: green;
     
 }
 
-.borderblack{
+.bgblack{
     
     background-color: black;
 }
 
+.border{
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.shadow{
+    box-shadow: 10px 10px 5px #a91e1e;
+}
 
