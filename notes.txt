@@ -1,0 +1,25 @@
+CSS - Cascading Style Sheets
+    - Gives style to raw HTML
+    - Allows for CONSISTENT styling
+    - Used to make web pages responsive
+        - How your page caters to different devices
+        - Aids in creating accessible sites
+    - makes the website modern looking and attractive
+    - Seperartion of concepts, HTML and CSS separated in order to avoid confusion
+    - Dry; do not repeat (ensuring no duplication of effort)
+    
+p{
+    property : value;
+}
+
+    - selectors can be separated with a , if you want them to have the same values
+
+p, h1, span{
+
+    color : red
+}
+
+-- Three ways to join CSS to HTML
+    - Internal ; In the <head> section of the document
+    - External ; Using <link rel="stylesheet" href="name of sheet here">
+    - Inline ; 
