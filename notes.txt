@@ -22,4 +22,8 @@ p, h1, span{
 -- Three ways to join CSS to HTML
     - Internal ; In the <head> section of the document
     - External ; Using <link rel="stylesheet" href="name of sheet here">
-    - Inline ; 
+    - Inline ; Using <style> on a specific element, can be used to customise an individual element.
+
+
+Inline > internal/External
+Internal/External : Only matters where the code appears in the code, unless you use the !important tag.
