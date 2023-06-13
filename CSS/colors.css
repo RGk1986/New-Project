@@ -11,10 +11,14 @@
 }
 
 #para1{
+    background-image: url(/Images/box.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 50px 75px;
     color: rgb(34, 146, 90);
     font-size: 20px;
     height: fit-content;
-    width: fit-content;
+    width: 50%;
     border: 10px dotted black;
     box-shadow: 5px 5px 5px #6b0b7079;
     padding: 0.5%;
@@ -23,11 +27,11 @@
 }
 
 #para2{
-    background: linear-gradient(to left, #ff0000 20%, #0000ff 80%);
-    color: #fffefe;
+    background: linear-gradient(to bottom, #e100ff, #0000ff);
     font-size: 20px;
+    color:antiquewhite;
     height: fit-content;
-    width: fit-content;
+    width: 25%;
     border-top: 5px solid black;
     border-bottom: #16c32d 5px solid;
     border-left: 5px solid red;
@@ -36,4 +40,4 @@
     padding: 5px;
     margin: 15px;
 
-}
+}  
