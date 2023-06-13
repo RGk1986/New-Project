@@ -47,5 +47,33 @@ FONTS
     - Web safe fonts; common fonts that come pre-installed with OS
     - Web Fonts; Downloaded from the internet (Google Fonts is a good resource)
 
+
 Day 2
 
+English and Maths
+    - American English is what we right code in so no u's and lots of z's
+    - Maths is mainly JS, though can use %'s in CSS
+
+
+
+Margins and Padding 
+    - Margins:
+        Margins refer to the space around an element, which creates a gap between the element and other elements in its vicinity. 
+        Margins can be set on all four sides of an element (top, right, bottom, and left) individually, or you can use shorthand notation to set them simultaneously. 
+        Margins are used to create spacing between elements and affect the overall layout of a web page.
+
+    - Padding:
+        Padding refers to the space between the content of an element and its border. It is the area inside the element, between the content and the border itself. 
+        Similar to margins, padding can be set on all four sides individually or using shorthand notation. Padding is used to control the spacing between the content and the border of an element.
+    
+
+Colors
+    - How to apply color to different elements
+        - By name 
+        - By RGB (Red,Green,Blue); specify value from 0 - 255
+        - By Hex -- This is the preferred method within the industry at the moment as it allows for clearer setting of colors than RGB or name
+        - By HSLa (Hue, Saturation, Lightness, Alpha value)
+            - Hue : Degree of the field from 0 - 360 (0 - Red, 120 - Green, 240 - Blue)
+            - Saturation : %age value 
+            - Lightness : %age value 0% - Black, 50% somewhere between, 100% - White
+            - Alpha : Opacity
