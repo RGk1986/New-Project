@@ -3,7 +3,7 @@
  */
 
 p,h1,span{
-    color: blueviolet;
+    color: rgb(97, 13, 186);
     background-color: bisque;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -33,9 +33,54 @@ p,h1,span{
     background-color: beige;
 }
 
+.box1{
+    color: aqua;
+    width : 300px;
+    height: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 2px #812032;
+    margin: auto;
+    padding: 1%;
+    background-color: rgb(84, 3, 102);
+}
+
+
 .shadow{
     box-shadow: 10px 10px 5px #a91e1e;
 }
+
+#top-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6f6fd7;
+    z-index: 1000;
+  }
+  
+  #top-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  #top-menu li {
+    margin: 0 10px;
+  }
+  
+  #top-menu a {
+    text-decoration: none;
+    color: #cfcc19;
+    font-weight: bold;
+  }
+
+  #top-menu.scrolled {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(134, 61, 61, 0.1);
+  }
+  
+  
 /* 
 .triangle{
     width: 0;

@@ -1,3 +1,7 @@
+Week 2 - CSS
+
+Day 1
+
 CSS - Cascading Style Sheets
     - Gives style to raw HTML
     - Allows for CONSISTENT styling
@@ -43,4 +47,5 @@ FONTS
     - Web safe fonts; common fonts that come pre-installed with OS
     - Web Fonts; Downloaded from the internet (Google Fonts is a good resource)
 
+Day 2
 
