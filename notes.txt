@@ -36,3 +36,11 @@ Selectors in CSS
         d. grouping selector
     
     - id, defined by # 
+    - class, defined by .
+    - grouping e.g p, h1, span
+
+FONTS
+    - Web safe fonts; common fonts that come pre-installed with OS
+    - Web Fonts; Downloaded from the internet (Google Fonts is a good resource)
+
+

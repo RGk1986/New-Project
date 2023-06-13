@@ -4,7 +4,8 @@
 
 p,h1,span{
     color: blueviolet;
-    background-color: blanchedalmond;
+    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #test{
@@ -14,7 +15,7 @@ p,h1,span{
 
 .txtgreen{
     color: green;
-    
+
 }
 
 .bgblack{
@@ -22,12 +23,25 @@ p,h1,span{
     background-color: black;
 }
 
-.border{
-    border: 2px solid black;
-    box-shadow: 10px 10px 5px #888888;
+.box{
+    width : 300px;
+    height: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 2px #60077d;
+    margin: auto;
+    padding: 10px;
+    background-color: beige;
 }
 
 .shadow{
     box-shadow: 10px 10px 5px #a91e1e;
 }
-
+/* 
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid rgb(207, 142, 22);
+    box-shadow: 10px 10px 5px #a91e1e;
+  } */
