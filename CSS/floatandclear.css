@@ -5,13 +5,22 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Play', sans-serif;
+    font-size: 12pt;
 }
 
-h3{
+h1{
     text-align: center;
     font-family: 'Play', sans-serif;
     font-weight: bold;
     font-size: 20pt;
+    margin: 10px;   
+}
+
+h2{
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
     margin: 10px;   
 }
 
@@ -34,24 +43,30 @@ h3{
 }
 /* Remember that width = %age + padding + margin */
 #fruit{
-    float: left;
+    float: right;
     width: 48%;
     background-color: green;
+    text-align: justify;
 }
 
 #computer{
     float: right;
     width: 48%;
     background-color: blue;
+    text-align: justify;
 }
 /* Clear ensures that the container will not sit behind other elements */
 #stationary{
     clear: both;
     width: 99%;
     background-color: yellow;
+    text-align: justify;    
 }   
 
 #vegetable{
+    /* float: top; */
+    clear: both;
     width: 99%;
     background-color: lightcoral;
+    text-align: justify;
 }
