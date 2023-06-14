@@ -62,7 +62,7 @@ h2{
     background-color: yellow;
     text-align: justify;    
 }   
-
+/* if no float/clear value this box, for some reason, appears outside of the .container */
 #vegetable{
     /* float: top; */
     clear: both;
