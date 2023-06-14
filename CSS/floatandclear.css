@@ -27,12 +27,12 @@ h3{
 .container{
     width: 48%;
     border: 2px solid ;
-    background-color:red;
+    background-color: #ff6000;
     margin: auto;
     padding: 5px;
     
 }
-
+/* Remember that width = %age + padding + margin */
 #fruit{
     float: left;
     width: 48%;
@@ -44,9 +44,14 @@ h3{
     width: 48%;
     background-color: blue;
 }
-
+/* Clear ensures that the container will not sit behind other elements */
 #stationary{
     clear: both;
     width: 99%;
     background-color: yellow;
 }   
+
+#vegetable{
+    width: 99%;
+    background-color: lightcoral;
+}
