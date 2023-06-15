@@ -1,10 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arbutus Slab', serif;
-    background-color: cadetblue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arbutus Slab", serif;
 }
 
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(250, 0, 0);
+    text-shadow: 5px 5px 2px #000000;
+    margin: 2%;
+}
+
+.container {
+  max-width: 50%;
+  background-color: cadetblue;
+  border: 5px solid black;
+  margin: auto;
+  padding: 5%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 1% 2%;
+  border-radius: 8px;
+  font-size: 20px;
+  box-shadow: 5px 5px 2px #60077d;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover,
+a:hover {
+  background-color: rgb(75, 20, 107);
+  color: rgb(163, 142, 34);
+}
