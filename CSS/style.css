@@ -2,88 +2,86 @@
     class = .
  */
 
-p,h1,span{
-    color: rgb(97, 13, 186);
-    background-color: bisque;
-    font-family: 'Lilita One', cursive;
+p,
+h1,
+span {
+  color: rgb(97, 13, 186);
+  background-color: bisque;
+  font-family: "Lilita One", cursive;
 }
 
-#test{
-    color: blue;
-    background-color: red;
+#test {
+  color: blue;
+  background-color: red;
 }
 
-.txtgreen{
-    color: green;
-    font-weight: 500;  
-
+.txtgreen {
+  color: green;
+  font-weight: 500;
 }
 
-.bgblack{
-    
-    background-color: black;
+.bgblack {
+  background-color: black;
 }
 
-.box{
-    width : 300px;
-    height: 20px;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: 5px 5px 2px #60077d;
-    margin: auto;
-    padding: 10px;
-    background-color: beige;
+.box {
+  width: 300px;
+  height: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 2px #60077d;
+  margin: auto;
+  padding: 10px;
+  background-color: beige;
 }
 
-.box1{
-    font-family: 'Roboto Mono', monospace;
-    color: aqua;
-    width : 300px;
-    height: fixed;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: 5px 5px 2px #812032;
-    margin: auto;
-    padding: 1%;
-    background-color: rgb(84, 3, 102);
+.box1 {
+  font-family: "Roboto Mono", monospace;
+  color: aqua;
+  width: 300px;
+  height: fixed;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 2px #812032;
+  margin: auto;
+  padding: 1%;
+  background-color: rgb(84, 3, 102);
 }
 
-
-.shadow{
-    box-shadow: 10px 10px 5px #a91e1e;
+.shadow {
+  box-shadow: 10px 10px 5px #a91e1e;
 }
 
 #top-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #6f6fd7;
-    z-index: 1000;
-  }
-  
-  #top-menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 5px;
-    display: flex;
-  }
-  
-  #top-menu li {
-    font-family: 'Press Start 2P', cursive;
-    margin: 0 10px;
-  }
-  
-  #top-menu a {
-    text-decoration: none;
-    color: #cfcc19;
-    font-weight: bold;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6f6fd7;
+  z-index: 1000;
+}
 
-  #top-menu.scrolled {
-    background-color: #8f1010;
-    box-shadow: 0 2px 4px rgb(134, 61, 61);
-  }
-  
-  
+#top-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+}
+
+#top-menu li {
+  font-family: "Press Start 2P", cursive;
+  margin: 0 10px;
+}
+
+#top-menu a {
+  text-decoration: none;
+  color: #cfcc19;
+  font-weight: bold;
+}
+
+#top-menu.scrolled {
+  background-color: #8f1010;
+  box-shadow: 0 2px 4px rgb(134, 61, 61);
+}
+
 /* 
 .triangle{
     width: 0;

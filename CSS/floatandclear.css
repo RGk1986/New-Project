@@ -1,72 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Play', sans-serif;
-    font-size: 12pt;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Play", sans-serif;
+  font-size: 12pt;
 }
 
-h1{
-    text-align: center;
-    font-family: 'Play', sans-serif;
-    font-weight: bold;
-    font-size: 20pt;
-    margin: 10px;   
+h1 {
+  text-align: center;
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  margin: 10px;
 }
 
-h2{
-    text-align: center;
-    font-family: 'Play', sans-serif;
-    font-weight: bold;
-    font-size: 16pt;
-    margin: 10px;   
+h2 {
+  text-align: center;
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+  margin: 10px;
 }
 
-.item{
-    border: 3px solid;
-    background-color: grey;
-    padding: 12px 3px;
-    margin: 12px 3px;
-    /* width: 600px; */
+.item {
+  border: 3px solid;
+  background-color: grey;
+  padding: 12px 3px;
+  margin: 12px 3px;
+  /* width: 600px; */
 }
 
 /* If you do not define width then you cannot align the block element */
-.container{
-    width: 48%;
-    border: 2px solid ;
-    background-color: #ff6000;
-    margin: auto;
-    padding: 5px;
-    
+.container {
+  width: 48%;
+  border: 2px solid;
+  background-color: #ff6000;
+  margin: auto;
+  padding: 5px;
 }
 /* Remember that width = %age + padding + margin */
-#fruit{
-    float: right;
-    width: 48%;
-    background-color: green;
-    text-align: justify;
+#fruit {
+  float: right;
+  width: 48%;
+  background-color: green;
+  text-align: justify;
 }
 
-#computer{
-    float: right;
-    width: 48%;
-    background-color: blue;
-    text-align: justify;
+#computer {
+  float: right;
+  width: 48%;
+  background-color: blue;
+  text-align: justify;
 }
 /* Clear ensures that the container will not sit behind other elements */
-#stationary{
-    clear: both;
-    width: 99%;
-    background-color: yellow;
-    text-align: justify;    
-}   
+#stationary {
+  clear: both;
+  width: 99%;
+  background-color: yellow;
+  text-align: justify;
+}
 /* if no float/clear value this box, for some reason, appears outside of the .container */
-#vegetable{
-    float: left;
-    /* clear: both; */
-    width: 99%;
-    background-color: lightcoral;
-    text-align: justify;
+#vegetable {
+  float: left;
+  /* clear: both; */
+  width: 99%;
+  background-color: lightcoral;
+  text-align: justify;
 }
