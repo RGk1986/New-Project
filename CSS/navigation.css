@@ -1,0 +1,49 @@
+   *{
+    margin: 0;
+    padding: 0;
+   }
+
+   .navBar{
+        background-color: antiquewhite;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 0px 10px;
+    }
+    /* Applies to ALL LIST ITEMS */
+    /* li{} */
+    /* Applies only to NAVBAR List Items */
+    .navBar ul li{
+        float: left;
+        list-style: none;
+        margin: 0px 10px;
+    }
+    
+    .navBar ul li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .navBar ul{
+        overflow: auto
+    }
+/* When we float an element it can overthrow the parent setting, which is why we lose bgcolor when we float the search bar */
+    .search{
+        float: right;
+        border-radius: 10px;
+        margin: 0px 10px;
+        color: rgb(0, 0, 0);
+    }
+
+    .navBar ul li a:hover{
+        color: red;
+    }
+    #overflow {
+        float: left;
+        margin: 50px;
+        width: 55%;
+        height: 200px;
+        background-color: antiquewhite;
+        padding: 20px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
