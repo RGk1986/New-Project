@@ -77,3 +77,19 @@ Colors
             - Saturation : %age value 
             - Lightness : %age value 0% - Black, 50% somewhere between, 100% - White
             - Alpha : Opacity
+
+Display Properties
+    - inline
+    - block
+    - inline-block
+
+CSS Positions
+    - Static (Default)
+    - Relative - relative to normal position and leaves a gap in it's normal position
+    - Absolute - relative to it's first parent position
+    - Sticky - combination of fixed and relative, element remains in sticky position whilst scrolling.
+    - Fixed - Remains fixed to a position on the screen even if scrolling happens, top,left,right,bottom. 
+
+
+Benefit of sticky:
+    Sticky is useful when 

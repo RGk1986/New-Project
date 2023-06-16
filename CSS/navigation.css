@@ -12,6 +12,12 @@
     /* Applies to ALL LIST ITEMS */
     /* li{} */
     /* Applies only to NAVBAR List Items */
+    /* .navbar ul li{}*/
+    
+    .navBar ul{
+        overflow: auto
+    }
+    
     .navBar ul li{
         float: left;
         list-style: none;
@@ -23,9 +29,7 @@
         color: rgb(0, 0, 0);
     }
 
-    .navBar ul{
-        overflow: auto
-    }
+    
 /* When we float an element it can overthrow the parent setting, which is why we lose bgcolor when we float the search bar */
     .search{
         float: right;
