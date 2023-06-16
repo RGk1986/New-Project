@@ -8,9 +8,9 @@
     height: 300px;
     width: 300px;
     background-color: red;
-    position: relative;
-    left: 100px;
-    top: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
     
 
 }
@@ -21,9 +21,9 @@
     background-color: blue;
     border: 5px solid black;
     box-shadow: 5px 5px 5px green;
-    position: absolute;
-    top: 300px;         
-    left: 300px;
+    position: relative;
+    top: 100px;         
+    left: 100px;
 }
 
 /* Boxes below here are independent and positioned relative to the screen not the above. */
@@ -44,7 +44,7 @@
     background-color: green;
     border: 5px solid black;
     position: absolute;
-    top: 25px;         
-    left: 25px;
+    top: 50px;         
+    left: 50px;
 }
 
