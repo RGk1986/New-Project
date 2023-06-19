@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightblue;
+  color: red;
+}
+
+header {
+  background-color: antiquewhite;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: inline-block;
+}
+
+.navBar {
+  width: 100vw;
+  padding: 10px;
+}
+
+.navBar ul {
+  overflow: auto;
+}
+
+.navBar ul li {
+  float: left;
+  position: relative;
+  left: 40%;
+  list-style: none;
+  margin: 0px 10px;
+  text-shadow: 5;
+}
+
+.navBar ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-shadow: 5px 5px 5px green;
+}
+
+.navBar ul li a:hover {
+  color: red;
+  text-shadow: 5px 5px 5px purple;
+}
+
+.search {
+  float: right;
+  border-radius: 10px;
+  margin: 0px 10px;
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+  float: left;
+  padding-bottom: 10px;
+  margin: 0px;
+  color: rgb(0, 0, 0);
+}
+
+#flex-container {
+  background-color: orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 7.5%;
+  flex-wrap: wrap;
+}
+
+.flex-items {
+  flex-basis: 20%;
+  background-color: azure;
+  margin-bottom: 5%;
+  padding: 1.5%;
+}
+
+.flex-items h3 {
+  color: darkblue;
+  text-align: center;
+}
+
+.flex-items p {
+  text-align: center;
+
+}
+
+.flex-pic img {
+  width: 60%;
+  margin-left: 20%;
+}
+
+
+@media screen and (max-width: 480px) {
+  .flex-items {
+    flex-basis: 60%;
+  }
+}
