@@ -29,7 +29,11 @@ h3 {
     border: 2px solid red;
     margin: auto;
     width: 93%;
+    height: 500px;
     padding: 5px;
+    position: relative;
+    top: 100px;
+
 }
 
 .box {
@@ -39,5 +43,6 @@ h3 {
   padding: 5px;
   text-align: left;
   display: inline-block;
-  position: relative; top: 5%; left: 18%;  right: 18%;  bottom: 5%;
+  position: relative;
 }
+
