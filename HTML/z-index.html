@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-index and how they work</title>
+    <style>
+      /* Z-index is a CSS property that allows you to control the order of how elements are stacked on top of each other. It has an integer value, 
+         the higher the value the further "forward" an element is */
+        /* The default value of z-index is 0 */
+        
+      #blackbox {
+        background-color: black;
+        height: 200px;
+        width: 100vw;
+        position: absolute;
+        z-index: 5;
+      }
+      #redbox {
+        background-color: red;
+        width: 55vw;
+        height: 200px;
+        position: relative;
+        top: 100px;
+        z-index: 3;
+      }
+      #bluebox {
+        background-color: blue;
+        width: 75vw;
+        height: 200px;
+        position: relative;
+        top: 150px;
+        z-index: 3;
+      }
+      #greenbox {
+        background-color: green;
+        width: 200px;
+        height: 100vh;
+        position: absolute;
+        top: 200px;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="blackbox"></div>
+    <div class="container" id="redbox"></div>
+    <div class="container" id="bluebox"></div>
+    <div class="container" id="greenbox"></div>
+  </body>
+</html>
