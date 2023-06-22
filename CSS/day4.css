@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
 
+@keyframes simple {
+  from {
+    background-color: aqua;
+  }
+  to {
+    background-color: rgb(255, 0, 0);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +16,12 @@
   font-family: "Arbutus Slab", serif;
 }
 
-h1{
-    text-align: center;
-    font-size: 50px;
-    color: rgb(250, 0, 0);
-    text-shadow: 5px 5px 2px #000000;
-    margin: 2%;
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(250, 0, 0);
+  text-shadow: 5px 5px 2px #000000;
+  margin: 2%;
 }
 
 .container {
@@ -41,6 +50,7 @@ a {
 
 button:hover,
 a:hover {
-  background-color: rgb(75, 20, 107);
-  color: rgb(163, 142, 34);
+  animation-name: simple;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
